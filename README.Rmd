@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 
 # scapr
 
-This package consists of one function (i.e., `scaps()`) for turning lower-case character format into <span style = "font-variant:small-caps;">`small capitals`</span>. This function wrap the HTML-tag around a character string input and is designed to be used in an R Markdown document. I designed this function to help the writing of my thesis that deals with lots of small-capitalisation of words.
+This package consists of one function (i.e., `scaps()`) for turning lower-case character format into <span style = "font-variant:small-caps;">`small capitals`</span>. This function wrap the HTML-tag around a character string input as exemplified in Yihui Xie's chapter on inline-formatting for markdown syntax (cf.  [Bookdown](https://bookdown.org/yihui/bookdown/markdown-syntax.html)). I designed this function to help the writing of my thesis that deals with lots of small-capitalisation of words.
 
 The development version of the package can be installed via GitHub with [devtools](https://github.com/hadley/devtools):
 
