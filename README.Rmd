@@ -31,6 +31,11 @@ install_github("gederajeg/scapr")
 
 ## Example
 
-We can use `scaps()` as an inline R code, e.g. to turn the word *happiness* into small caps, as follows: `` `r '\x60r scapr::scaps("happiness")\x60'` ``. It will then produce <span style = "font-variant:small-caps;">happiness</span>.
+```{r}
+library(scapr)
+```
 
-Another example is to include another markdown formatting, such as **boldface** (e.g., `` `r '\x60r scapr::scaps("**happiness**")\x60'` `` that results in <span style = "font-variant:small-caps;">**happiness**</span>) and *italics* (e.g., `` `r '\x60r scapr::scaps("*happiness*")\x60'` `` that results in <span style = "font-variant:small-caps;">*happiness*</span>).
+
+We can use `scaps()` as an inline R code, e.g. to turn the word *happiness* into small caps, as follows: `` `r '\x60r scapr::scaps("happiness")\x60'` ``. It will then produce `r scaps("happiness")`.
+
+Another example is to include another markdown formatting, such as **boldface** (e.g., `` `r '\x60r scapr::scaps("**happiness**")\x60'` `` that results in `r scaps("**happiness**")` and *italics* (e.g., `` `r '\x60r scapr::scaps("*happiness*")\x60'` `` that results in `r scaps("*happiness*")`.
