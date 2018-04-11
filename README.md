@@ -1,7 +1,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 **Authors:** [Gede Primahadi Wijaya Rajeg](https://figshare.com/authors/Gede_Primahadi_Wijaya_Rajeg/1234749)<br/> **License:** [GPL-2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)<br/>
 
-[![Travis-CI Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr)
+[![Travis-CI Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr)<br/> [![Coverage Status](https://img.shields.io/codecov/c/github/gederajeg/scapr/master.svg)](https://codecov.io/github/gederajeg/scapr?branch=master)<br/>
 
 scapr
 =====
