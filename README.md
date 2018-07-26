@@ -1,18 +1,22 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 **Authors:** [Gede Primahadi Wijaya Rajeg](https://figshare.com/authors/Gede_Primahadi_Wijaya_Rajeg/1234749)<br/> **License:** [GPL-2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)<br/>
 
-[![Travis-CI Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr)<br/> [![Coverage Status](https://img.shields.io/codecov/c/github/gederajeg/scapr/master.svg)](https://codecov.io/github/gederajeg/scapr?branch=master)<br/>
+[![Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr)<br/> [![codecov](https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg)](https://codecov.io/gh/gederajeg/scapr)<br/>
 
 scapr
 =====
 
-This package consists of one function (i.e., `scaps()`) for turning lower-case character format into <span style="font-variant:small-caps;">`small capitals`</span>. This function wrap the HTML-tag around a character string input as exemplified in Yihui Xie's chapter on inline-formatting for markdown syntax (cf. [Bookdown](https://bookdown.org/yihui/bookdown/markdown-syntax.html)). I designed this function to help the writing of my thesis that deals with lots of small-capitalisation of words.
+The goal of scapr is to turn lower-case character format into <span style="font-variant:small-caps;">`small capitals`</span>. This function wrap the HTML-tag around a character string input as exemplified in Yihui Xie's chapter on inline-formatting for markdown syntax (cf. [Bookdown](https://bookdown.org/yihui/bookdown/markdown-syntax.html)). I designed this function to help the writing of my thesis in R Markdown that deals with lots of small-capitalisation of words.
 
-The development version of the package can be installed via GitHub with [devtools](https://github.com/hadley/devtools):
+Installation
+------------
+
+You can install `scapr` from [GitHub](https://github.com/) with:
 
 ``` r
-library(devtools)
-install_github("gederajeg/scapr")
+# install.packages("devtools")
+devtools::install_github("gederajeg/scapr")
 ```
 
 Example
