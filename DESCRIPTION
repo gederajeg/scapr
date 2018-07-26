@@ -9,7 +9,7 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
-URL: https://gederajeg.github.io/scapr/
+URL: https://gederajeg.github.io/scapr/, https://github.com/gederajeg/scapr
 BugReports: https://github.com/gederajeg/scapr/issues
 Suggests:
     testthat,
