@@ -67,26 +67,25 @@
 
     
     
-<!-- rmarkdown v1 -->
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 <div id="scapr" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#scapr" class="anchor"></a>scapr</h1></div>
-<p>The goal of <code>scapr</code> is to turn lower-case character format into <span style="font-variant: small-caps;"><code>small capitals</code></span>. This function wrap the HTML-tag around a character string input as exemplified in Yihui Xie’s chapter on inline-formatting for markdown syntax (cf. <a href="https://bookdown.org/yihui/bookdown/markdown-syntax.html">Bookdown</a>). I designed this function to help the writing of my thesis in R Markdown that deals with lots of small-capitalisation of words.</p>
+<p>The goal of <code>scapr</code> is to turn lower-case character format into <span class="smallcaps"><code>small capitals</code></span>. This function wrap the HTML-tag around a character string input as exemplified in Yihui Xie’s chapter on inline-formatting for markdown syntax (cf. <a href="https://bookdown.org/yihui/bookdown/markdown-syntax.html">Bookdown</a>). I designed this function to help the writing of my thesis in R Markdown that deals with lots of small-capitalisation of words.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
 <p>You can install <code>scapr</code> from <a href="https://github.com/">GitHub</a> with:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># install.packages("devtools")</span>
-devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocumentation.org/packages/devtools/topics/install_github">install_github</a></span>(<span class="st">"gederajeg/scapr"</span>)</code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co"># install.packages("devtools")</span></a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocumentation.org/packages/devtools/topics/install_github">install_github</a></span>(<span class="st">"gederajeg/scapr"</span>)</a></code></pre></div>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(scapr)</code></pre></div>
-<p>We can use <code><a href="reference/scaps.html">scaps()</a></code> as an inline R code, e.g. to turn the word <em>happiness</em> into small caps, as follows: <code>`r scaps("happiness")`</code>. It will then produce <span style="font-variant: small-caps;">happiness</span>.</p>
-<p>There are three other functions in the package for different font-face types of the small-capital string. They are <code><a href="reference/scaps_italics.html">scaps_italics()</a></code> (for <span style="font-variant: small-caps;"><em>italicised small-captial string</em></span>), <code><a href="reference/scaps_bold.html">scaps_bold()</a></code> (for <span style="font-variant: small-caps;"><strong>boldfaced small-capital string</strong></span>) and <code><a href="reference/scaps_bolditalics.html">scaps_bolditalics()</a></code> (for both <span style="font-variant: small-caps;"><strong><em>italicised and boldfaced small-capital string</em></strong></span>).</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">library</span>(scapr)</a></code></pre></div>
+<p>We can use <code><a href="reference/scaps.html">scaps()</a></code> as an inline R code, e.g. to turn the word <em>happiness</em> into small caps, as follows: <code>`r scaps("happiness")`</code>. It will then produce <span class="smallcaps">happiness</span>.</p>
+<p>There are three other functions in the package for different font-face types of the small-capital string. They are <code><a href="reference/scaps_italics.html">scaps_italics()</a></code> (for <span class="smallcaps"><em>italicised small-captial string</em></span>), <code><a href="reference/scaps_bold.html">scaps_bold()</a></code> (for <span class="smallcaps"><strong>boldfaced small-capital string</strong></span>) and <code><a href="reference/scaps_bolditalics.html">scaps_bolditalics()</a></code> (for both <span class="smallcaps"><strong><em>italicised and boldfaced small-capital string</em></strong></span>).</p>
 </div>
 </div>
   </div>
