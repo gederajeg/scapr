@@ -29,7 +29,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">scapr</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.1.0</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.2.0</span>
       </span>
     </div>
 
@@ -68,8 +68,8 @@
     
     
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-<p><strong>Authors:</strong> <a href="https://figshare.com/authors/Gede_Primahadi_Wijaya_Rajeg/1234749">Gede Primahadi Wijaya Rajeg</a><br><strong>License:</strong> <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GPL-2</a><br></p>
-<p><a href="https://travis-ci.org/gederajeg/scapr"><img src="https://travis-ci.org/gederajeg/scapr.svg?branch=master" alt="Build Status"></a><br><a href="https://codecov.io/gh/gederajeg/scapr"><img src="https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg" alt="codecov"></a><br></p>
+<!-- rmarkdown v1 -->
+
 <div id="scapr" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#scapr" class="anchor"></a>scapr</h1></div>
@@ -85,8 +85,8 @@ devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocument
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(scapr)</code></pre></div>
-<p>We can use <code><a href="reference/scaps.html">scaps()</a></code> as an inline R code, e.g. to turn the word <em>happiness</em> into small caps, as follows: <code>`r scapr::scaps("happiness")`</code>. It will then produce <span style="font-variant: small-caps;">happiness</span>.</p>
-<p>Another example is to include other markdown formattings, such as <strong>boldface</strong> (e.g., <code>`r scapr::scaps("**happiness**")`</code> that results in <span style="font-variant: small-caps;"><strong>happiness</strong></span>) and <em>italics</em> (e.g., <code>`r scapr::scaps("*happiness*")`</code> that results in <span style="font-variant: small-caps;"><em>happiness</em></span>).</p>
+<p>We can use <code><a href="reference/scaps.html">scaps()</a></code> as an inline R code, e.g. to turn the word <em>happiness</em> into small caps, as follows: <code>`r scaps("happiness")`</code>. It will then produce <span style="font-variant: small-caps;">happiness</span>.</p>
+<p>There are three other functions in the package for different font-face types of the small-capital string. They are <code><a href="reference/scaps_italics.html">scaps_italics()</a></code> (for <span style="font-variant: small-caps;"><em>italicised small-captial string</em></span>), <code><a href="reference/scaps_bold.html">scaps_bold()</a></code> (for <span style="font-variant: small-caps;"><strong>boldfaced small-capital string</strong></span>) and <code><a href="reference/scaps_bolditalics.html">scaps_bolditalics()</a></code> (for both <span style="font-variant: small-caps;"><strong><em>italicised and boldfaced small-capital string</em></strong></span>).</p>
 </div>
 </div>
   </div>
@@ -104,7 +104,8 @@ devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocument
 <div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
-<li><a href="https://www.r-project.org/Licenses/GPL-2">GPL-2</a></li>
+<li><a href="LICENSE.html">Full license</a></li>
+<li><small><a href="https://opensource.org/licenses/mit-license.php">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a></small></li>
 </ul>
 </div>
 <div class="developers">
@@ -115,7 +116,15 @@ devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocument
 </ul>
 </div>
 
-      </div>
+      <div class="dev-status">
+<h2>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://travis-ci.org/gederajeg/scapr"><img src="https://travis-ci.org/gederajeg/scapr.svg?branch=master" alt="Build Status"></a></li>
+<li><a href="https://codecov.io/gh/gederajeg/scapr"><img src="https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg" alt="codecov"></a></li>
+<li><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-blue.svg" alt="lifecycle"></a></li>
+</ul>
+</div>
+</div>
 
 </div>
 
