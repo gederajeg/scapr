@@ -2,18 +2,18 @@
 % Please edit documentation in R/scaps.R
 \name{scaps}
 \alias{scaps}
-\title{Turn strings into small capitals}
+\title{Turning strings into small capitals}
 \usage{
 scaps(x)
 }
 \arguments{
-\item{x}{A character string (e.g. a word or phrase)}
+\item{x}{A character string (e.g. a word or phrase).}
 }
 \value{
 Character string with HTML-tag for small capitals.
 }
 \description{
-This function is a wrapper to put HTML-tag around character string input to be rendered as small capitals in the output document of R Markdown file.
+This is a wrapper to put HTML-tag around character string input to be rendered as small capital in the output document of R Markdown file.
 }
 \examples{
 scaps("happiness")
