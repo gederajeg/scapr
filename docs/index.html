@@ -72,20 +72,73 @@
 <div id="scapr" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#scapr" class="anchor"></a>scapr</h1></div>
-<p>The goal of <code>scapr</code> is to turn lower-case character format into <span class="smallcaps"><code>small capitals</code></span>. This function wrap the HTML-tag around a character string input as exemplified in Yihui Xie’s chapter on inline-formatting for markdown syntax (cf. <a href="https://bookdown.org/yihui/bookdown/markdown-syntax.html">Bookdown</a>). I designed this function to help the writing of my thesis in R Markdown that deals with lots of small-capitalisation of words.</p>
+<p>The goal of <code>scapr</code> is to turn lower-case character format into <span style="font-variant: small-caps;"><code>small capitals</code></span>. This function wrap the HTML-tag around a character string input as exemplified in Yihui Xie’s chapter on inline-formatting for markdown syntax (cf. <a href="https://bookdown.org/yihui/bookdown/markdown-syntax.html">Bookdown</a>). I designed this function to help the writing of my thesis in R Markdown that deals with lots of small-capitalisation of words.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
 <p>You can install <code>scapr</code> from <a href="https://github.com/">GitHub</a> with:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co"># install.packages("devtools")</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocumentation.org/packages/devtools/topics/install_github">install_github</a></span>(<span class="st">"gederajeg/scapr"</span>)</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># install.packages("devtools")</span>
+devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocumentation.org/packages/devtools/topics/install_github">install_github</a></span>(<span class="st">"gederajeg/scapr"</span>)</code></pre></div>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">library</span>(scapr)</a></code></pre></div>
-<p>We can use <code><a href="reference/scaps.html">scaps()</a></code> as an inline R code, e.g. to turn the word <em>happiness</em> into small caps, as follows: <code>`r scaps("happiness")`</code>. It will then produce <span class="smallcaps">happiness</span>.</p>
-<p>There are three other functions in the package for different font-face types of the small-capital string. They are <code><a href="reference/scaps_italics.html">scaps_italics()</a></code> (for <span class="smallcaps"><em>italicised small-captial string</em></span>), <code><a href="reference/scaps_bold.html">scaps_bold()</a></code> (for <span class="smallcaps"><strong>boldfaced small-capital string</strong></span>) and <code><a href="reference/scaps_bolditalics.html">scaps_bolditalics()</a></code> (for both <span class="smallcaps"><strong><em>italicised and boldfaced small-capital string</em></strong></span>).</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(scapr)</code></pre></div>
+<p>We can use <code><a href="reference/scaps.html">scaps()</a></code> as an inline R code, e.g. to turn the word <em>happiness</em> into small caps, as follows: <code>`r scaps("happiness")`</code>. It will then produce <span style="font-variant: small-caps;">happiness</span>.</p>
+<p>There are three other functions in the package for different font-face types of the small-capital string. They are <code><a href="reference/scaps_italics.html">scaps_italics()</a></code> (for <span style="font-variant: small-caps;"><em>italicised small-captial string</em></span>), <code><a href="reference/scaps_bold.html">scaps_bold()</a></code> (for <span style="font-variant: small-caps;"><strong>boldfaced small-capital string</strong></span>) and <code><a href="reference/scaps_bolditalics.html">scaps_bolditalics()</a></code> (for both <span style="font-variant: small-caps;"><strong><em>italicised and boldfaced small-capital string</em></strong></span>).</p>
+</div>
+<div id="session-info" class="section level2">
+<h2 class="hasAnchor">
+<a href="#session-info" class="anchor"></a>Session info</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocumentation.org/packages/devtools/topics/session_info">session_info</a></span>()
+<span class="co">#&gt; Session info -------------------------------------------------------------</span>
+<span class="co">#&gt;  setting  value                       </span>
+<span class="co">#&gt;  version  R version 3.5.1 (2018-07-02)</span>
+<span class="co">#&gt;  system   x86_64, darwin15.6.0        </span>
+<span class="co">#&gt;  ui       X11                         </span>
+<span class="co">#&gt;  language (EN)                        </span>
+<span class="co">#&gt;  collate  en_US.UTF-8                 </span>
+<span class="co">#&gt;  tz       Australia/Melbourne         </span>
+<span class="co">#&gt;  date     2018-07-30</span>
+<span class="co">#&gt; Packages -----------------------------------------------------------------</span>
+<span class="co">#&gt;  package    * version date       source                          </span>
+<span class="co">#&gt;  assertthat   0.2.0   2017-04-11 CRAN (R 3.4.0)                  </span>
+<span class="co">#&gt;  backports    1.1.2   2017-12-13 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  base       * 3.5.1   2018-07-05 local                           </span>
+<span class="co">#&gt;  commonmark   1.5     2018-04-28 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  compiler     3.5.1   2018-07-05 local                           </span>
+<span class="co">#&gt;  crayon       1.3.4   2017-09-16 CRAN (R 3.4.1)                  </span>
+<span class="co">#&gt;  datasets   * 3.5.1   2018-07-05 local                           </span>
+<span class="co">#&gt;  desc         1.2.0   2018-05-01 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  devtools     1.13.6  2018-06-27 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  digest       0.6.15  2018-01-28 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  evaluate     0.11    2018-07-17 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  fs           1.2.3   2018-06-08 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  graphics   * 3.5.1   2018-07-05 local                           </span>
+<span class="co">#&gt;  grDevices  * 3.5.1   2018-07-05 local                           </span>
+<span class="co">#&gt;  htmltools    0.3.6   2017-04-28 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  knitr        1.20    2018-02-20 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  magrittr     1.5     2014-11-22 CRAN (R 3.4.0)                  </span>
+<span class="co">#&gt;  MASS         7.3-50  2018-04-30 CRAN (R 3.5.1)                  </span>
+<span class="co">#&gt;  memoise      1.1.0   2017-04-21 CRAN (R 3.4.0)                  </span>
+<span class="co">#&gt;  methods    * 3.5.1   2018-07-05 local                           </span>
+<span class="co">#&gt;  pkgdown      1.1.0   2018-06-02 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  R6           2.2.2   2017-06-17 CRAN (R 3.4.0)                  </span>
+<span class="co">#&gt;  Rcpp         0.12.18 2018-07-23 CRAN (R 3.5.1)                  </span>
+<span class="co">#&gt;  rlang        0.2.1   2018-05-30 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  rmarkdown    1.10    2018-06-11 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  roxygen2     6.0.1   2017-02-06 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  rprojroot    1.3-2   2018-01-03 CRAN (R 3.4.3)                  </span>
+<span class="co">#&gt;  rstudioapi   0.7     2017-09-07 CRAN (R 3.4.1)                  </span>
+<span class="co">#&gt;  scapr      * 0.2.0   2018-07-30 Github (gederajeg/scapr@23f393c)</span>
+<span class="co">#&gt;  stats      * 3.5.1   2018-07-05 local                           </span>
+<span class="co">#&gt;  stringi      1.2.4   2018-07-20 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  stringr      1.3.1   2018-05-10 cran (@1.3.1)                   </span>
+<span class="co">#&gt;  tools        3.5.1   2018-07-05 local                           </span>
+<span class="co">#&gt;  utils      * 3.5.1   2018-07-05 local                           </span>
+<span class="co">#&gt;  withr        2.1.2   2018-03-15 cran (@2.1.2)                   </span>
+<span class="co">#&gt;  xml2         1.2.0   2018-01-24 CRAN (R 3.5.0)                  </span>
+<span class="co">#&gt;  yaml         2.1.19  2018-05-01 CRAN (R 3.5.0)</span></code></pre></div>
 </div>
 </div>
   </div>
@@ -120,7 +173,6 @@
 <ul class="list-unstyled">
 <li><a href="https://travis-ci.org/gederajeg/scapr"><img src="https://travis-ci.org/gederajeg/scapr.svg?branch=master" alt="Build Status"></a></li>
 <li><a href="https://codecov.io/gh/gederajeg/scapr"><img src="https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg" alt="codecov"></a></li>
-<li><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-blue.svg" alt="lifecycle"></a></li>
 </ul>
 </div>
 </div>

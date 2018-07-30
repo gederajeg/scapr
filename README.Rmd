@@ -4,7 +4,7 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-[![Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr) [![codecov](https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg)](https://codecov.io/gh/gederajeg/scapr) [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr) [![codecov](https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg)](https://codecov.io/gh/gederajeg/scapr)
 
 
 ```{r setup, include = FALSE}
@@ -37,3 +37,9 @@ library(scapr)
 We can use `scaps()` as an inline R code, e.g. to turn the word *happiness* into small caps, as follows: `` `r knitr::inline_expr('scaps("happiness")')` ``. It will then produce `r scaps("happiness")`.
 
 There are three other functions in the package for different font-face types of the small-capital string. They are `scaps_italics()` (for `r scaps_italics("italicised small-captial string")`), `scaps_bold()` (for `r scaps_bold("boldfaced small-capital string")`) and `scaps_bolditalics()` (for both `r scaps_bolditalics("italicised and boldfaced small-capital string")`).
+
+## Session info
+```{r}
+devtools::session_info()
+```
+
