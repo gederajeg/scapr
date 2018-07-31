@@ -1,0 +1,6 @@
+bibentry(
+         bibtype = "Manual",
+         title = "scapr: Convert strings into small capitals",
+         author = person(given = "Gede Primahadi Wijaya", family = "Rajeg", role = c("aut", "cre"), email = c("primahadiwijaya@gmail.com", "primahadi_wijaya@unud.ac.id"), comment = c(ORCID = "0000-0002-2047-8621")),
+         year = "2018",
+         url = "https://gederajeg.github.io/scapr/")
