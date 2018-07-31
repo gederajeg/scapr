@@ -10,7 +10,7 @@ scaps_italics(x)
 \item{x}{A character string (e.g. a word or phrase).}
 }
 \value{
-Italicised, small captial character string.
+Italicised, small capital character string.
 }
 \description{
 This is a wrapper to put HTML-tag around character string input to be rendered as \emph{italicised} small capital in the output document of an R Markdown file.
