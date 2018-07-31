@@ -10,10 +10,10 @@ scaps_bolditalics(x)
 \item{x}{A character string (e.g. a word or phrase).}
 }
 \value{
-Boldfaced as well as italicised character string.
+Boldfaced as well as italicised small capital character string.
 }
 \description{
-This is a wrapper to put HTML-tag around character string input to be rendered as \strong{boldfaced} as well as \emph{italicised} small capital in the output document of R Markdown file.
+This is a wrapper to put HTML-tag around character string input to be rendered as \strong{boldfaced} as well as \emph{italicised} small capital in the output document of an R Markdown file.
 }
 \examples{
 scaps_bolditalics("happiness")

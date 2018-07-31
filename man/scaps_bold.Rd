@@ -10,10 +10,10 @@ scaps_bold(x)
 \item{x}{A character string (e.g. a word or phrase).}
 }
 \value{
-Boldfaced, small-capital character string.
+Boldfaced, small capital character string.
 }
 \description{
-This is a wrapper to put HTML-tag around character string input to be rendered as \strong{boldfaced} small capital in the output document of R Markdown file.
+This is a wrapper to put HTML-tag around character string input to be rendered as \strong{boldfaced} small capital in the output document of an R Markdown file.
 }
 \examples{
 scaps_bold("happiness")

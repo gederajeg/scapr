@@ -10,10 +10,10 @@ scaps(x)
 \item{x}{A character string (e.g. a word or phrase).}
 }
 \value{
-Character string with HTML-tag for small capitals.
+Character string with HTML-tag for small capital.
 }
 \description{
-This is a wrapper to put HTML-tag around character string input to be rendered as small capital in the output document of R Markdown file.
+This is a wrapper to put HTML-tag around character string input to be rendered as small capital in the output document of an R Markdown file.
 }
 \examples{
 scaps("happiness")

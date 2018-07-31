@@ -1,11 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr) [![Coverage status](https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg)](https://codecov.io/github/gederajeg/scapr?branch=master)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr) [![Coverage status](https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg)](https://codecov.io/github/gederajeg/scapr?branch=master)
 
 scapr
 =====
 
-The goal of `scapr` is to provide a set of functions that wrap over the HTML-tag for generating <span style="font-variant:small-caps;">`small capitals`</span> strings. I designed this package to help me with the writing of my thesis in R Markdown that deals with lots of small-capitalisation of words to be rendered into MS Word output. The package aims to save time and, most importantly, prevent typo in writing the small-caps tag (i.e., `<span style = "font-variant:small-caps;">a small-cap string here</span>`) over and over again in the R Markdown (cf. Yihui Xie's chapter in [Bookdown](https://bookdown.org/yihui/bookdown/markdown-syntax.html) about inline-formatting for small-caps in R markdown).
+The goal of `scapr` is to provide a set of functions that wrap over the HTML-tag for generating <span style="font-variant:small-caps;">small capitals</span> strings. I designed this package to help me with the writing of my thesis in R Markdown that deals with lots of small-capitalisation of words to be rendered into MS Word output. The package aims to save time and, most importantly, prevent typo in writing the small capital tag (i.e., `<span style = "font-variant:small-caps;">a small capital string</span>`) over and over again in the R Markdown (cf. Yihui Xie's chapter in [Bookdown](https://bookdown.org/yihui/bookdown/markdown-syntax.html) about inline-formatting for small capital in R markdown). The `scapr` package can be seen as a complement to the [`lettercase`](https://cran.r-project.org/web/packages/lettercase/index.html) R package by Christopher Brown.
 
 Installation
 ------------
@@ -33,7 +33,7 @@ df <- dplyr::tibble(concept = scaps(c("time", "emotion")),
                     freq = c(45, 53))
 
 # print with knitr
-knitr::kable(df, caption = "A table with small-caps strings")
+knitr::kable(df, caption = "A table with small-capitalised strings")
 ```
 
 | concept                                               |  freq|
@@ -41,7 +41,7 @@ knitr::kable(df, caption = "A table with small-caps strings")
 | <span style="font-variant:small-caps;">time</span>    |    45|
 | <span style="font-variant:small-caps;">emotion</span> |    53|
 
-There are three other functions in the package for different font-face types of the small-capital string. They are `scaps_italics()` (for <span style="font-variant:small-caps;">*italicised small-captial string*</span>), `scaps_bold()` (for <span style="font-variant:small-caps;">**boldfaced small-capital string**</span>) and `scaps_bolditalics()` (for both <span style="font-variant:small-caps;">***italicised and boldfaced small-capital string***</span>).
+There are three other functions in the package for different font-face types of the small capital string. They are `scaps_italics()` (for <span style="font-variant:small-caps;">*italicised small captial string*</span>), `scaps_bold()` (for <span style="font-variant:small-caps;">**boldfaced small capital string**</span>) and `scaps_bolditalics()` (for both <span style="font-variant:small-caps;">***italicised and boldfaced small capital string***</span>).
 
 Session info
 ------------
