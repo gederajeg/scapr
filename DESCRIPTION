@@ -2,6 +2,7 @@ Package: scapr
 Type: Package
 Title: Convert strings into small capitals
 Version: 0.2.0
+Date: 2018-07-31
 Authors@R: person(given = "Gede Primahadi Wijaya", family = "Rajeg", email = "primahadiwijaya@gmail.com",
                role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2047-8621"))
 Description: This is a wrapper for small-caps formatting for (R) markdown text.
