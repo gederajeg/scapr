@@ -9,3 +9,4 @@
 ^inst/_pkgdown\.yml$
 ^LICENSE\.md$
 ^README\.html$
+^cran-comments\.md$
