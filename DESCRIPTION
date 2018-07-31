@@ -5,7 +5,7 @@ Version: 0.2.1
 Date: 2018-07-31
 Authors@R: person(given = "Gede Primahadi Wijaya", family = "Rajeg", email = "primahadiwijaya@gmail.com",
                role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2047-8621"))
-Description: This is a utility wrapper for small capital formatting for R markdown text.
+Description: This is a utility wrapper for rendering small capital strings when writing in R markdown interface.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
