@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/gederajeg/scapr?branch=master&svg=true)](https://ci.appveyor.com/project/gederajeg/scapr) [![Coverage status](https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg)](https://codecov.io/github/gederajeg/scapr?branch=master)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/gederajeg/scapr?branch=master&svg=true)](https://ci.appveyor.com/project/gederajeg/scapr) [![Coverage status](https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg)](https://codecov.io/github/gederajeg/scapr?branch=master) [![DOI](https://zenodo.org/badge/128873321.svg)](https://zenodo.org/badge/latestdoi/128873321)
 
 scapr
 =====
