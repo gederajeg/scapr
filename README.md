@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr) [![Coverage status](https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg)](https://codecov.io/github/gederajeg/scapr?branch=master)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build Status](https://travis-ci.org/gederajeg/scapr.svg?branch=master)](https://travis-ci.org/gederajeg/scapr) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/gederajeg/scapr?branch=master&svg=true)](https://ci.appveyor.com/project/gederajeg/scapr) [![Coverage status](https://codecov.io/gh/gederajeg/scapr/branch/master/graph/badge.svg)](https://codecov.io/github/gederajeg/scapr?branch=master)
 
 scapr
 =====
@@ -56,7 +56,7 @@ devtools::session_info()
 #>  language (EN)                        
 #>  collate  en_US.UTF-8                 
 #>  tz       Australia/Melbourne         
-#>  date     2018-07-31
+#>  date     2018-08-03
 #> Packages -----------------------------------------------------------------
 #>  package    * version date       source                          
 #>  assertthat   0.2.0   2017-04-11 CRAN (R 3.4.0)                  
@@ -88,7 +88,7 @@ devtools::session_info()
 #>  rlang        0.2.1   2018-05-30 CRAN (R 3.5.0)                  
 #>  rmarkdown    1.10    2018-06-11 CRAN (R 3.5.0)                  
 #>  rprojroot    1.3-2   2018-01-03 CRAN (R 3.4.3)                  
-#>  scapr      * 0.2.0   2018-07-30 Github (gederajeg/scapr@23f393c)
+#>  scapr      * 0.2.1   2018-07-31 Github (gederajeg/scapr@330abf5)
 #>  stats      * 3.5.1   2018-07-05 local                           
 #>  stringi      1.2.4   2018-07-20 CRAN (R 3.5.0)                  
 #>  stringr      1.3.1   2018-05-10 cran (@1.3.1)                   

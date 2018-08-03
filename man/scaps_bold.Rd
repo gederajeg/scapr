@@ -16,7 +16,5 @@ Boldfaced, small capital character string.
 This is a wrapper to put HTML-tag around character string input to be rendered as \strong{boldfaced} small capital in the output document of an R Markdown file.
 }
 \examples{
-\dontrun{
 scaps_bold("happiness")
-}
 }

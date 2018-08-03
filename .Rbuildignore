@@ -10,3 +10,4 @@
 ^LICENSE\.md$
 ^README\.html$
 ^cran-comments\.md$
+^appveyor\.yml$

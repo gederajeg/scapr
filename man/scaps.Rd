@@ -16,7 +16,5 @@ Character string with HTML-tag for small capital.
 This is a wrapper to put HTML-tag around character string input to be rendered as small capital in the output document of an R Markdown file.
 }
 \examples{
-\dontrun{
 scaps("happiness")
-}
 }

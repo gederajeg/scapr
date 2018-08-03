@@ -7,9 +7,7 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{
 #' scaps_bolditalics("happiness")
-#' }
 scaps_bolditalics <- function(x) {
   paste("<span style = 'font-variant:small-caps;'>__*", x, "*__</span>", sep = "")
 }
